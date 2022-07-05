@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Poppins:wght@300;400;500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Lobster&family=Manrope&family=Poppins:wght@300;400;500;600;700;800&display=swap');
 *,
 html{
     margin: 0;
@@ -53,7 +53,8 @@ h1, h2{
 }
 /* Hero Section Style */
 .hero-area {
-    background-image: linear-gradient(360deg, #121212 0%, rgba(18, 18, 18, 0) 100%), url("../images/hero-donation1.png");
+    background-image: linear-gradient(360deg, #121212 0%, rgba(18, 18, 18, 0) 100%), 
+    url("../images/hero-donation1.png");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -84,10 +85,18 @@ h1, h2{
 }
 .items{
     background-color: #FAFAFA;
+    border: 2px solid #FAFAFA;
     border-radius: 5px;
     width: 135px;
     margin: 0 11px;
     padding: 50px 0px;
+    cursor: pointer;
+    transition: .3s;
+}
+.items:hover{
+    background-color: #FFEEEE;
+    border: 2px solid #FF5959;
+    transition: .3s;
 }
 .item-highlight{
     background-color: #FFEEEE;
@@ -130,7 +139,7 @@ h1, h2{
     margin-bottom: 30px;
 }
 .donate-plan-items h3 {
-    font-family: 'Poppins';
+    font-family: 'Poppins', sans-serif;
     font-size: 24px;
     line-height: 36px;
     color: #121212;
@@ -158,6 +167,7 @@ h1, h2{
     margin-top: 50px;
     background-color: #FFF4D6;
     padding: 76px 175px;
+    border-radius: 10px;
 }
 .subscribe-wrapper input,
 .subs {
@@ -183,4 +193,30 @@ h1, h2{
     padding: 14px 0px 14px 14px;
     width: 157px;
     margin-left: -5px;
+    cursor: pointer;
+}
+/* Footer Area Style */
+.footer-area{
+    background-color: #0B0D17;
+    padding: 42px 0px 43px;
+    margin-top: 130px;
+}
+.footer-text{
+    text-align: center;
+}
+.footer-text h2{
+    font-family: 'Lobster', cursive;
+    font-size: 36px;
+    line-height: 44px;
+    font-weight: 400;
+    letter-spacing: 0.5px;
+    color: #FF5959;
+    margin-bottom: 24px;
+}
+.footer-text p{
+    font-family: 'Manrope', sans-serif;
+    color: #D9DBE1;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
 }
