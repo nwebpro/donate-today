@@ -61,12 +61,14 @@ h1, h2{
     padding: 0 50px;
 }
 /* Donate Today Area Style */
-.donate-today-text{
+.donate-today-text,
+.our-donate-plan{
     text-align: center;
     width: 691px;
     margin: auto;
 }
-.donate-today-text h2{
+.donate-today-text h2,
+.our-donate-plan h2{
     font-size: 45px;
     line-height: 54px;
     color: #121212;
@@ -74,24 +76,22 @@ h1, h2{
 }
 .donate-amount-wrapper{
     display: flex;
-    padding: 0 10px;
     text-align: center;
     justify-content: center;
     padding: 50px 0px 60px;
 }
-.item{
+.items{
     background-color: #FAFAFA;
     border-radius: 5px;
     width: 135px;
-    height: 123px;
     margin: 0 11px;
-    line-height: 123px;
+    padding: 50px 0px;
 }
 .item-highlight{
     background-color: #FFEEEE;
     border: 2px solid #FF5959;
 }
-.item h2{
+.items h2{
     color: #707070;
     font-size: 30px;
 }
@@ -110,4 +110,41 @@ h1, h2{
 .other-amount .line{
     margin-bottom: 46px;
     border: 1px solid #f1f0f0;
+}
+/* Our Donate Plan Area Style */
+.donate-plan-items-wrapper{
+    padding-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+.donate-plan-items{
+    border-radius: 5px;
+    width: 360px;
+    margin: 0 12px;
+    padding: 63px 22px 54px 23px;
+}
+.donate-plan-items img{
+    width: 58px;
+    margin-bottom: 30px;
+}
+.donate-plan-items h3 {
+    font-family: 'Poppins';
+    font-size: 24px;
+    line-height: 36px;
+    color: #121212;
+    font-weight: 600;
+    margin-bottom: 16px;
+}
+.donate-plan-items p {
+    font-size: 16px;
+    line-height: 24px;
+}
+.food-bg{
+    background-color: rgba(79, 157, 166, 0.1);;
+}
+.shelter-bg{
+    background-color: rgba(255, 89, 89, 0.1);;
+}
+.education-bg{
+    background-color: #FFF4D6;
 }
