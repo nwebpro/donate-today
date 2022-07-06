@@ -17,6 +17,9 @@ h1, h2{
     font-weight: 700;
 
 }
+input:focus {
+    outline: none;
+}
 .btn-style{
     background-color: #FF5959;
     padding: 16px 12px;
@@ -111,16 +114,18 @@ h1, h2{
 }
 .other-amount{
     text-align: center;
-    width: 765px;
     margin: auto;
 }
-.other-amount p{
-    color: #B3B3B3;
-    margin-bottom: 5px;
-}
-.other-amount .line{
+.other-amount input{
+    border: none;
+    border-bottom: 1px solid #DADADA;
     margin-bottom: 46px;
-    border: 1px solid #f1f0f0;
+    width: 765px;
+    text-align: center;
+    padding: 10px;
+    font-size: 18px;
+    line-height: 28px;
+    color: #B3B3B3;
 }
 /* Our Donate Plan Area Style */
 .donate-plan-items-wrapper{
@@ -212,9 +217,6 @@ h1, h2{
     padding: 14px 0px 14px 14px;
     color: #AA9F9F;
     width: 275px;
-}
-.subscribe-wrapper input:focus {
-    outline: none;
 }
 .subs {
     color: #fff;
